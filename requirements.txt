@@ -1,0 +1,6 @@
+PyMuPDF==1.25.3
+python_dotenv==1.1.0
+pillow==11.1.0
+sentence-transformers
+sqlalchemy
+pgvector

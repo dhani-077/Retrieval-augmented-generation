@@ -1,0 +1,10 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    ports:
+      - 5432:5432
+    restart: always
+    environment:
+      - POSTGRES_DB=case_study
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword
